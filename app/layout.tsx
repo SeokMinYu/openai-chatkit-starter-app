@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OpenAI Agent School",
-  description: "OpenAI Agent School에 오신 것을 환영합니다.",
+  title: "YSM Agent",
+  description: "YSM Agent에 오신 것을 환영합니다.",
 };
 
 export default function RootLayout({
