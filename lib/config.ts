@@ -7,15 +7,15 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "OpenAI Agent School에 대하여",
-    prompt: "OpenAI Agent School에 대해 설명해 주세요.",
+    label: "딥 레이서에 대하여",
+    prompt: "딥 레이서에 대해 설명해 주세요.",
     icon: "circle-question",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "OpenAI Agent School에 대해 물어보세요!";
+export const PLACEHOLDER_INPUT = "딥 레이서에 대해 물어보세요!";
 
-export const GREETING = "OpenAI Agent School의 에이전트입니다. 무엇을 도와드릴까요?";
+export const GREETING = "YSM의 딥레이서 에이전트입니다. 무엇을 도와드릴까요?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
